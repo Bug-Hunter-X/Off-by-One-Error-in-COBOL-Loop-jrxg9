@@ -1,0 +1,3 @@
+This repository contains a simple COBOL program demonstrating a common off-by-one error in loops. The program initializes a counter to 0 and then uses a PERFORM...VARYING statement to increment the counter 10 times. However, due to an incorrect loop condition, the counter ends up being incremented 11 times instead.
+
+The bug is explained in detail, and a solution is provided that corrects the loop condition to ensure it iterates the correct number of times.  This is a common error found in COBOL and other imperative programming languages when using loops and counters.
